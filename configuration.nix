@@ -75,15 +75,18 @@
     feh
     compton
     termite
+    gtk-engine-murrine
     arc-gtk-theme
     arc-icon-theme
+    lxappearance
     tint2
     python27Packages.udiskie
     xfce.thunar
     networkmanagerapplet
-    volumeicon
+    pnmixer
     dropbox
     keepass
+    spotify
 
     # Dev
     git
