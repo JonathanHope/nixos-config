@@ -78,6 +78,7 @@
     gtk-engine-murrine
     arc-gtk-theme
     arc-icon-theme
+    gnome3.gnome_themes_standard
     lxappearance
     tint2
     python27Packages.udiskie
@@ -87,6 +88,8 @@
     dropbox
     keepass
     spotify
+    xtitle
+    xdo
 
     # Dev
     git
@@ -99,6 +102,7 @@
     clang
     gnumake
     cmake
+    pkgconfig
   ];
 
   # ACPI Configuration
@@ -128,6 +132,7 @@
   environment.extraInit = ''
     export GTK_PATH="${config.system.path}/lib/gtk-2.0:${config.system.path}/lib/gtk-3.0"
     export GTK_DATA_PREFIX=${config.system.path}
+    export PATH=$PATH:/home/jhope/dotfiles/scripts/
   '';
 
   # NixOS version
