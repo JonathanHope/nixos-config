@@ -67,16 +67,28 @@
     p7zip
     acpi
     autorandr
+    asunder
+    vlc
+    hdparm
+    fd
+    ripgrep
+    exa
+    tokei
+    tldr
+    htop
+    ncdu
+    fzf
+    #bat
 
     # Graphical
     rofi
     emacs
-    firefox
+    firefox-devedition-bin
     feh
     compton
     termite
     gtk-engine-murrine
-    arc-gtk-theme
+    arc-theme
     arc-icon-theme
     gnome3.gnome_themes_standard
     lxappearance
@@ -87,15 +99,12 @@
     pnmixer
     dropbox
     keepass
-    spotify
     xtitle
-    xdo
+    xdo    
 
     # Dev
     git
-    ack
-    ag
-    jdk
+    openjdk10
     python
     perl
     nodejs
@@ -103,6 +112,11 @@
     gnumake
     cmake
     pkgconfig
+    leiningen
+    rustc
+    cargo
+    hunspell
+    hunspellDicts.en-us
   ];
 
   # ACPI Configuration
