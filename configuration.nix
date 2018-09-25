@@ -19,6 +19,9 @@
   # Power Management
   powerManagement.enable= true;
 
+  # Audio
+  hardware.pulseaudio.enable = true;
+
   # Networking
   networking = {
     hostName = "skofnung";
@@ -78,6 +81,7 @@
     htop
     ncdu
     fzf
+    alsaUtils
     #bat
 
     # Graphical
@@ -117,6 +121,7 @@
     cargo
     hunspell
     hunspellDicts.en-us
+    octave
   ];
 
   # ACPI Configuration
