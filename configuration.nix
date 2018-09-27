@@ -82,7 +82,7 @@
     ncdu
     fzf
     alsaUtils
-    #bat
+    # bat
 
     # Graphical
     rofi
@@ -122,6 +122,8 @@
     hunspell
     hunspellDicts.en-us
     octave
+    texlive.combined.scheme-medium
+    graphviz
   ];
 
   # ACPI Configuration
